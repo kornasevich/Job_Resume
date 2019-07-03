@@ -1,0 +1,34 @@
+.container{
+    border-bottom: 1px solid lightgray;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header-title {
+    font-weight: bold;
+    font-size: 26px;
+    font-family: Calibri, serif;
+    margin: auto 0;
+}
+
+.header-items {
+    list-style-type: none;
+    display: flex;
+    font-family: Calibri, serif;
+}
+
+li {
+    padding-right: 30px;
+}
+
+li:hover {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
